@@ -1,3 +1,5 @@
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
 # GitHub MCP Server
 
 The GitHub MCP Server is a [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction)
@@ -145,14 +147,14 @@ The GitHub MCP Server supports enabling or disabling specific groups of function
 
 The following sets of tools are available (all are on by default):
 
-| Toolset                 | Description                                                   |
-| ----------------------- | ------------------------------------------------------------- |
-| `repos`                 | Repository-related tools (file operations, branches, commits) |
-| `issues`                | Issue-related tools (create, read, update, comment)           |
-| `users`                 | Anything relating to GitHub Users                             |
-| `pull_requests`         | Pull request operations (create, merge, review)               |
-| `code_security`         | Code scanning alerts and security features                    |
-| `experiments`           | Experimental features (not considered stable)                 |
+| Toolset                  | Description                                                          |
+| ------------------------ | -------------------------------------------------------------------- |
+| `repos`                  | Repository-related tools (file operations, branches, commits) |
+| `issues`                 | Issue-related tools (create, read, update, comment)               |
+| `users`                  | Anything relating to GitHub Users                                  |
+| `pull_requests`          | Pull request operations (create, merge, review)                   |
+| `code_security`          | Code scanning alerts and security features                        |
+| `experiments`            | Experimental features (not considered stable)                     |
 
 #### Specifying Toolsets
 
@@ -225,7 +227,7 @@ The flag `--gh-host` and the environment variable `GITHUB_HOST` can be used to s
 the GitHub Enterprise Server hostname.
 Prefix the hostname with the `https://` URI scheme, as it otherwise defaults to `http://` which GitHub Enterprise Server does not support.
 
-``` json
+```json
 "github": {
     "command": "docker",
     "args": [
